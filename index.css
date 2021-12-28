@@ -1,0 +1,73 @@
+body{
+    background: rgb(157, 252, 193);
+    display: flex;
+}
+.bolas{  
+    z-index: 20;   
+}
+.eggiz,.eggder{
+    background: rgb(170, 113, 7);
+    border-radius: 50%;
+    border: black solid 7px;
+    height: 80px;
+    width: 80px; 
+}
+.cuello{
+    background: rgb(170, 113, 7);
+    height: 90px;
+    width: 250px;
+    top: 45px;
+    position: absolute;
+    left: 55px;
+    border-top: black solid 7px;
+    border-bottom: black solid 7px;
+    transition: all 1s ease;
+}
+.cabeza{
+    border-left: black solid 7px;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 36px;
+    left: 300px;
+    transition: all 1s ease;
+}
+.cara{
+    background: rgb(170, 113, 7);
+    border-radius: 50%;
+    height: 106px;
+    width: 103px;
+    position: relative;
+    left: -55px;
+    border: solid black 7px;
+}
+.boca{
+    background: black;
+    height: 7px;
+    width: 20px;
+    position: relative;
+    left:40px;
+    top: -63px;
+    z-index: 10;
+}
+.cuello.div-grande{
+width: 1100px;
+}
+.cabeza.div2-grande{
+transform: translateX(830px);
+}
+.text{
+    height: 350px;
+    width: 850px;
+    background: rgb(72, 74, 226);
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+}
+p{
+    font-size: 40px;   
+}
