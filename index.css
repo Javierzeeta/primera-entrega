@@ -52,10 +52,10 @@ body{
     z-index: 10;
 }
 .cuello.div-grande{
-width: 80vw;
+width: 1800px;
 }
 .cabeza.div2-grande{
-transform: translateX(63vw);
+transform: translateX(1830px);
 }
 .text{
     height: 350px;
